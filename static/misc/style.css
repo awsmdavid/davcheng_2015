@@ -1,0 +1,138 @@
+/*
+TODO:
+- decide whether or not to use px or % for header and header bars
+- play with fonts
+
+*/
+
+#logo {
+	float: left;
+	text-align: center;
+	width:150px;
+	margin-top: 10px;
+	top:0;
+	color: green;
+	text-decoration: none;
+	font-size: 150%;
+	margin-left: 1%;
+	position:relative;
+}
+
+#logo-img{
+	height: 40px; 
+	width: 40px; 
+	position: absolute;
+	bottom: 0;
+}
+
+#tagline {
+	float: right;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding-right: 10%; 
+}
+
+
+.header-bar{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    /*use for dynamic height
+    height: 7%;
+    */
+    height: 50px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header {
+	background-color:#006600;
+	display: inline-block;
+	width: 100%;
+	left: 0;
+	/*use for dynamic height
+	top: 7%;
+	height: 6%;
+	*/
+	top: 50px;
+	height:30px;
+	text-decoration: none;
+	color: white;
+	position:fixed;
+	float: left;
+
+	box-shadow: -5px 0 5px #AAAAAA;
+	z-index: 99;
+}
+
+.tabcontainer {
+	width: 18%;
+	height: 900px;
+	display:block;
+	float: left;
+	position:fixed;
+
+    font-size: 80%;
+    left: 0;
+    /*use for dynamic height
+    top: 13%;
+    */
+    top: 80px;
+    position: fixed;
+
+	/*for shadowing...get it??*/
+    background-color: #E4F2EB;
+    box-shadow: 0 0 5px #AAAAAA inset;
+    
+}
+
+.post-container{
+	float: left;
+	width: 70%;
+	margin-left: 20%;
+	/*use for dynamic height
+    margin-top: 7%;
+    */
+	margin-top: 80px;
+	margin-right: 10%;
+	position: relative;
+
+}
+
+a.button{
+	line-height: 40px;
+	height: 40px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	text-indent: 20%;
+	text-decoration: none;
+	color: green;
+	border-bottom: 1px solid #E4E4E4;
+	font-size: 125%;
+	/*overflow:hidden makes the tabs not bleed over but makes the shadowing wonky*/
+}
+
+#selectedtab{
+	background-color:white;
+	border-right:none;
+	color: black;
+	box-shadow: -5px 0 5px #AAAAAA;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+#timestamp{
+	text-align: center;
+}
+
+body{
+	font-family: 'Average Sans', sans-serif;
+    /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+}
