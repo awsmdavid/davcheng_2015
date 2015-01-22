@@ -417,7 +417,7 @@ body {
 
 
 .bg-hood{
-    background: url("http://www.davcheng.com/img/mt-hood.jpg") no-repeat center;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/mt-hood.jpg") no-repeat center;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -427,7 +427,7 @@ body {
 }
 
 .bg-oc{
-    background: url("http://www.davcheng.com/img/ocean-city.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/ocean-city.jpg") no-repeat center transparent;
     position: absolute;
     top: 300px;
     margin-left: 60px; 
@@ -439,7 +439,7 @@ body {
 }
 
 .bg-chelsea-pier{
-    background: url("http://www.davcheng.com/background-photos/chelsea-pier.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -449,7 +449,7 @@ body {
 }
 
 .bg-portland{
-    background: url("http://www.davcheng.com/background-photos/portland.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/portland.jpg") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -459,7 +459,7 @@ body {
 }
 
 .bg-lucerne{
-    background: url("http://www.davcheng.com/background-photos/lucerne.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/lucerne.jpg") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -469,7 +469,7 @@ body {
 }
 
 .bg-muir-woods{
-    background: url("http://www.davcheng.com/background-photos/muir-woods.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/muir-woods.jpg") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -479,7 +479,7 @@ body {
 }
 
 .bg-jap-garden{
-    background: url("http://www.davcheng.com/background-photos/japanese-garden.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/japanese-garden.jpg") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -489,7 +489,7 @@ body {
 }
 
 .bg-london-bridge{
-    background: url("http://www.davcheng.com/background-photos/london-bridge.jpg") no-repeat center transparent;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/london-bridge.jpg") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
