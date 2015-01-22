@@ -46,7 +46,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -153,9 +153,8 @@ a:active {
   z-index: 1000;
 }
 
-#left-nav{
-  position: fixed;
-  float: left;
+header{
+  border-bottom: 1px solid #ccc;
 }
 
 .third-profile-pic-img {
@@ -178,8 +177,7 @@ a:active {
 }
 
 .section-content{
-  padding-right: 6%;
-  padding-left: 1%;
+  padding: 15px;
 }
 
 .project-img{
@@ -228,9 +226,16 @@ footer{
     z-index: 1000;
   }
 
-.section-title{
-  text-align: center;
-}
+  .section-title{
+    text-align: center;
+  }
+
+  label{
+    color: #777;
+    font-size: .9em;
+    text-align: center;
+    display: block;
+  }
 
   .row {
     margin-left: -1.4%;
@@ -289,6 +294,10 @@ footer{
     z-index: 1000;
   }
 
+#left-nav{
+  position: relative;
+  float: left;
+}
   .section-grid-img {
     width: 100%;
   }
@@ -323,16 +332,20 @@ footer{
     margin-left: 37.5%;
     margin-top: 10%;
   }
-
+  
+  #left-nav{
+    position: fixed;
+    float: left;
+  }
   .section-title{
     text-align: left;
   }
-  
+
   .third-profile-pic-img {
     margin-top: 20%;
   }
   .section-grid-img {
-    width: 95%;
+    width: 100%;
   }
   .grid-fourth,
   .grid-img {
@@ -383,7 +396,7 @@ footer{
 	Sets font styles for entire site.
  * ============================================================= */
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #272727;
@@ -391,10 +404,21 @@ body {
   opacity: .1;
 }
 /*background images*/
-.background-img-hood{
-    background: url("http://www.davcheng.com/img/mt-hood.jpg") no-repeat center transparent;
+
+.bg-img-sunrise{
+    background: url("http://www.davcheng.com/img/sunrise-clouds.png") no-repeat center;
     position: absolute;
-    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .2;
+    background-size: 100% 100%;
+}
+
+
+.bg-img-hood{
+    background: url("http://www.davcheng.com/img/mt-hood.jpg") no-repeat center;
+    position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
