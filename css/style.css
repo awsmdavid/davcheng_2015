@@ -417,7 +417,17 @@ body {
 
 
 .bg-hood{
-    background: url("http://www.davcheng.com/assets/img/bg-photos/mt-hood.jpg") no-repeat center;
+    background: url("http://www.davcheng.com/assets/img/bg-photos/mt-hood.png") no-repeat center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .2;
+    background-size: 100% 100%;
+}
+
+.bg-nats{
+    background: url("http://www.davcheng.com/assets/img/bg-photos/nats.png") no-repeat center;
     position: absolute;
     height: 100%;
     width: 100%;
