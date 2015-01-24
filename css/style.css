@@ -405,9 +405,22 @@ body {
   line-height: 1.5;
   color: #272727;
   background: #F3F3F7;
-  opacity: .1;
+  opacity: .2;
 }
 /*background images*/
+
+.bg-desc{
+  font: #ccc;
+  padding: 10px;
+  float: right;
+
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  font-size: 14px;
+  display: block;
+  text-align: right;
+}
 
 .bg-sunrise{
     background: url("http://www.davcheng.com/assets/img/bg-photos/sunrise-clouds.png") no-repeat center;
