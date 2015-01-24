@@ -177,7 +177,8 @@ header{
 }
 
 .section-content{
-  padding: 15px;
+  padding: 5px 10px;
+  display: inline-block;
 }
 
 .project-img{
@@ -186,7 +187,10 @@ header{
 
 .projects-section-content{
   font-size: 14px;
+  padding: 10px;
+  display:block;
 }
+
 
 /*
 can remove, this is for white rounded border
@@ -198,13 +202,13 @@ can remove, this is for white rounded border
 
 footer{
   position: fixed;
-  width: 99%;
+  width: 100%;
   bottom: 0;
   font-size: 12px;
   display: block;
   text-align: right;
   float: right;
-  margin-right: 1%;
+  padding-right: 10px;
   background-color: #F3F3F7;
 }
 
