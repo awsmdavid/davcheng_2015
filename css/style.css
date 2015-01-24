@@ -482,8 +482,28 @@ body {
     background-size: 100% 100%;
 }
 
-.bg-muir-woods{
-    background: url("http://www.davcheng.com/assets/img/bg-photos/muir-woods.jpg") no-repeat center transparent;
+.bg-bahama-sunset{
+    background: url("http://www.davcheng.com/assets/img/bg-photos/bahama-sunset.png") no-repeat center transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .2;
+    background-size: 100% 100%;
+}
+
+.bg-eiffel{
+    background: url("http://www.davcheng.com/assets/img/bg-photos/eiffel.png") no-repeat center transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .2;
+    background-size: 100% 100%;
+}
+
+.bg-capitol{
+    background: url("http://www.davcheng.com/assets/img/bg-photos/capitol.png") no-repeat center transparent;
     position: absolute;
     height: 100%;
     width: 100%;
