@@ -429,7 +429,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .4;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+  background-size: cover;
 }
 
 
@@ -440,7 +441,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-nats{
@@ -450,7 +452,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-oc{
@@ -462,7 +465,8 @@ body {
     width: 20%;
     z-index: -1000;
     opacity: .4;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-chelsea-pier{
@@ -472,7 +476,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-portland{
@@ -482,7 +487,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-lucerne{
@@ -493,6 +499,7 @@ body {
     z-index: -1;
     opacity: .2;
     background-size: 100% 100%;
+    /*background-size: cover;*/
 }
 
 .bg-bahama-sunset{
@@ -502,7 +509,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-eiffel{
@@ -512,7 +520,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-capitol{
@@ -522,7 +531,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 .bg-jap-garden{
@@ -533,6 +543,7 @@ body {
     z-index: -1;
     opacity: .2;
     background-size: 100% 100%;
+    /*background-size: cover;*/
 }
 
 .bg-london-bridge{
@@ -542,7 +553,8 @@ body {
     width: 100%;
     z-index: -1;
     opacity: .2;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
 }
 
 /*.background-img-hood:hover, .background-img-oc:hover,.background-img-chelsea-pier:hover,.background-img-muir-woods:hover,.background-img-jap-garden:hover,.background-img-portland:hover,.background-img-london-bridge:hover,.background-img-lucerne:hover{
